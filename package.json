@@ -1,0 +1,23 @@
+{
+  "name": "ticemtrilhas",
+  "version": "1.0.0",
+  "description": "primeira api",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./",
+    "start:dev": "nodemon"
+  },
+  "keywords": [
+    "primeira",
+    "api"
+  ],
+  "author": "Vitor Eto",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.1.4",
+    "sequelize": "^6.37.3",
+    "sqlite3": "^5.1.7"
+  },
+  "type": "module"
+}
